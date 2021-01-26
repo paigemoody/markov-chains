@@ -10,8 +10,6 @@ def open_and_read_file(file_path):
     Takes a string that is a file path, opens the file, and turns
     the file's contents as one string of text.
     """
-
-    # your code goes here
     file = open(file_path).read()
     bad_characters = ["@", ",", ":", ";","--", "-", "*","(", ")", "^", "+", "_", "~"]
     
@@ -103,14 +101,6 @@ def make_text(chains, output_length = 200):
 
 
     sentence_words = list(current_key)
-
-    # first_word, second_word = current_key
-
-    # sentence_words.append(first_word)
-    # sentence_words.append(second_word)
-
-    # While the current key is a valid key
-
     # uncomment to control length
     sentence_length = len(sentence_words)
 
